@@ -1,0 +1,13 @@
+div{
+    text-align: center;
+    top: 50%;
+    margin-top: 200px;
+}
+.btn{
+    margin: 10px;
+    width: 20vw;
+    background-color: cadetblue;
+}
+h3{
+    color: blue;
+}

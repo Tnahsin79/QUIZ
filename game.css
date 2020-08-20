@@ -1,0 +1,32 @@
+.div1{
+    top: 50%;
+    margin-top: 100px;
+}
+.btn{
+    background-color: transparent;
+    font-size: 1vw;
+    text-align: left;
+    width: 25vw;
+    height: 3vw;
+    margin: 7px;
+    color: black;
+}
+span{
+    background-color: blue;
+    display: inline-block;
+    text-align: center;
+    height: 2vw;
+    width: 2vw;
+}
+#question{
+    font-weight: bold;
+}
+#scoreText{
+    right: 0px;
+    text-align: right;
+    display: inline;
+    margin-left: 50vw;
+}
+#progressText{
+    display: inline;
+}
