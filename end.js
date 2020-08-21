@@ -78,7 +78,20 @@ async function savescore(){
         if(document.getElementById("username").value.length>0)
         {
         var name=document.getElementById("username").value;
-        localStorage.setItem(name,x);
+        var temp=parseInt(localStorage.getItem("score"));
+        //if(score>temp)
+        {
+            localStorage.setItem(name,x);
+            localStorage.setItem("name",name);
+            /*if(localStorage.getItem("name")===undefined)
+            localStorage.setItem("name",name);
+            else
+            {
+                var detail=localStorage.getItem("name");
+                detail=detail+","+name;
+                localStorage.setItem("name",detail);
+            }*/
+        }
         var queryString = "?" + name + "&" + score;
         window.location.href = "highscores.html" + queryString;
         }
