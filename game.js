@@ -80,7 +80,8 @@ function display(result)
     {
         //export{score};
         localStorage.setItem("score", score);
-        location.replace("end.html")
+        var queryString = "?score=" +score;
+        window.location.href = "end.html" + queryString;
     }
     database=result;
     var ques=result[i].question;

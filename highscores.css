@@ -1,17 +1,17 @@
-div{
+.div1{
     text-align: center;
-    color: black;
+    font-size: 2vw;
     margin-top: 15vw;
 }
 .btn{
-    margin: 3px;
+    margin: 10px;
+    width: 20vw;
     background-color: white;
     border: 1px solid white;
 }
 h3{
     color: blue;
 }
-input{
-    height: 2vw;
-    width: 20vw;
+p{
+    font-weight: bold;
 }
